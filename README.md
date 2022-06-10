@@ -24,7 +24,9 @@ This is a console application with no UI (no prompts, etc.). The application wil
 ### Input
 The input to the program begins with five groups of three letters. These five groups represent the positions of the five ships in this order: carrier, battleship, cruiser, submarine, and destroyer. The first character will be a column letter; the second character will be a row number; and the third character will be either the letter H or the letter V representing either Horizontal or Vertically, respectively. The first two characters define the upper-left corner of the ship, and the third character defines whether the ship proceeds to the right (for H) or down (for V). The input that defines the board in the picture above would be the following.
 
->F7H B1V D6V F3H I3V
+```
+F7H B1V D6V F3H I3V
+```
 
 Following these five groups of three characters, there will come zero or more groups of two characters representing shots. Each two characters will be either the column letter and row number of a cell, or else “Q0” indicating that the user quits.
 
@@ -46,9 +48,7 @@ Each gameboard representation should match the following pattern, where each let
 
 A shot description always begins with the column letter and row number of the shot, followed by a colon, followed by a description of the result. If the shot was a miss, it outputs the word "Miss". For example, if a shot at column J row 5 was a miss, the output would look like the following.
 
-```
-J5: Miss
-```
+>J5: Miss
 
 If the shot was a hit, it outputs the word "Hit" followed by the name of the ship that was hit. For example, if a shot at column J row 5 hit the Carrier, the output would look like the following.
 
