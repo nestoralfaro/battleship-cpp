@@ -16,7 +16,7 @@ The ships are placed in random locations. Two ships cannot contain the same cell
 When the game begins, the player does not know where the ships are on the board. The player may “shoot” in different cells in an attempt to hit one of the ships. Cells of the gameboard are identified by their column letter and row number—e.g., “B9” or “H4”. After each shot, the game responds by reporting which ship was hit by the shot, or that no ship was hit by the shot. If a ship has been hit in all of its cells, it sinks. You must sink all the ships to win the game.
 
 ## Demo
-
+![bcpp-demo](https://user-images.githubusercontent.com/83131937/173004782-22e1ae0c-9055-4361-b9d4-86e7786ddc23.gif)
 
 ## The Program
 This is a console application with no UI (no prompts, etc.). The application will be defined simply in terms of the input and output.
